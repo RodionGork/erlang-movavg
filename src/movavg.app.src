@@ -1,0 +1,14 @@
+{application, movavg,
+ [{description, "Moving Average Test Task"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { movavg_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {links, []}
+ ]}.
